@@ -22,6 +22,8 @@ export class Home extends Component {
       <div
         style={{
           backgroundImage: `url(${bgImage})`,
+          backgroundRepeat: "no-repeat",
+          WebkitBackgroundSize: "auto",
         }}
       >
         <h1>ĐẶT VÉ XEM PHIM CYBERLEARN.VN</h1>
@@ -61,7 +63,7 @@ export class Home extends Component {
             </table>
             <button
               onClick={this.handleClickButtonGetSeat}
-              className="btn btn-success"
+              className="btn btn-info"
             >
               THANH TOÁN
             </button>
